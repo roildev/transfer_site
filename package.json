@@ -1,0 +1,27 @@
+{
+  "name": "roildev",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --open --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roildev/roildev.github.io.git"
+  },
+  "author": "sunduck248@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roildev/roildev.github.io/issues"
+  },
+  "homepage": "https://github.com/roildev/roildev.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
